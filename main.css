@@ -1,0 +1,56 @@
+.main{
+    background-image: url("fon.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.menubtn{
+    font-size: 20px;
+    background-color: white;
+    border-width: 0px;
+    transition-duration: 0.2s;
+    width: 24%;
+    height: 70px;
+    border-width: 0px;
+    border-bottom-color: black;
+    transition-property: border-radius;
+    margin: 0;
+}
+.menu{
+    width: 100%;
+}
+.menubtn:hover{
+    cursor: pointer;
+    border-width: 3px;
+    border-bottom-color: black;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+}
+
+.disc{
+    text-align: center;
+    font-size: 40px;
+    background-color: rgba(255, 255, 255, 0.295);
+}
+.buttonqueue{
+    margin:auto;
+    background-color: rgb(0, 81, 255);
+    margin-left: 45%;
+    width: 200px;
+    height: 80px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    border-width: 0px;
+}
+.buttonreg{
+    margin:auto;
+    background-color: lime;
+    margin-left: 45%;
+    width: 200px;
+    height: 80px;
+    border-radius: 20px;
+    border-width: 0px;
+}
+button:hover{
+    cursor: pointer;
+}
