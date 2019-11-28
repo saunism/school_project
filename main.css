@@ -41,6 +41,12 @@
     margin-bottom: 10px;
     border-radius: 20px;
     border-width: 0px;
+    transition-duration: 0.3s;
+    transition-property: all;
+}
+.buttonqueue:hover{
+    width: 205px;
+    background-color: rgb(2, 69, 212);;
 }
 .buttonreg{
     margin:auto;
@@ -50,6 +56,13 @@
     height: 80px;
     border-radius: 20px;
     border-width: 0px;
+    margin-bottom: 20px;
+    transition-duration: 0.3s;
+    transition-property: all;
+}
+.buttonreg:hover{
+    width: 205px;
+    background-color: rgb(3, 201, 3);
 }
 button:hover{
     cursor: pointer;
